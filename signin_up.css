@@ -1,0 +1,82 @@
+/* --Global-- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  transform: translateY(10%);
+}
+
+.container div.logo img {
+  width: 50px;
+}
+
+.container div.title_login {
+  margin-bottom: 1rem;
+}
+
+.container div.title_signup {
+  margin-bottom: 1.5rem;
+}
+
+.container form div.input-field {
+  margin: 0.5rem;
+}
+
+.container form div.options {
+  margin: 0.8rem 0 0 0;
+}
+
+.container form div.options p.terms_conditions {
+  width: 22rem;
+}
+
+.container form div.input-field input {
+  width: 16rem;
+  padding: 1rem 0.5rem;
+  border: 0.0625rem solid silver;
+  border-radius: 0.9375rem;
+}
+
+.container p {
+  margin-bottom: 0.6rem;
+}
+
+.container p a.forgetPassword {
+  display: inline-block;
+}
+
+.container form button.btn {
+  width: 16rem;
+  padding: 0.8rem 0.5rem;
+  border-radius: 0.9375rem;
+  border: none;
+  background-color: #b12525;
+  color: white;
+  font-weight: bolder;
+}
+
+.container form button.search {
+  width: 5rem;
+  padding: 1.2rem 0.2rem;
+  border-radius: 2rem;
+  border: none;
+  color: rgb(134, 134, 134);
+  font-weight: 900;
+}
