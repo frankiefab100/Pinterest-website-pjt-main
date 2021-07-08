@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #fff;
+        color: #222;
+        font-family: "roboto", sans-serif;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .container {
+        background-color: #f5f5f5;
+        border-radius: 20px;
+        box-shadow: 2px 2px 15px #e6e6e6, -2px -2px 10px #868686;
+        padding: 60px 35px 35px;
+        text-align: center;
+        width: 450px;
+        height: 550px;
+      }
+
+      .logo img {
+        border-radius: 30%;
+        box-shadow: 0 0 4px #777, 0 0 0 5px #d8d8d8, 5px 5px 15px #a7aaaf,
+          -10px -10px 10px #fff;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 15px;
+      }
+
+      .title {
+        margin: 10px 0 -10px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+      }
+
+      .input-field {
+        position: relative;
+      }
+
+      i {
+        position: absolute;
+        color: #535353;
+        top: 32px;
+        left: 20px;
+      }
+
+      input {
+        border: none;
+        border-radius: 5px;
+        box-shadow: inset 5px 5px 5px #dfdfdf, inset -5px -5px 5px #ececec;
+        outline: none;
+        font-size: 1.2rem;
+        text-indent: 25px;
+        margin-top: 15px;
+        padding: 10px 20px;
+        height: 50px;
+        width: 100%;
+      }
+
+      input:focus {
+        border: 2px solid #05c565;
+      }
+
+      button {
+        background-color: #02bb5e;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px #a5a5a5, 2px 5px 5px #cfcfcf;
+        cursor: pointer;
+        color: #f5f5f5;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        margin-top: 25px;
+        padding: 15px 20px;
+        width: 100%;
+        transition: background-color 0.5s ease-in-out;
+      }
+
+      button:hover {
+        background-color: #038845;
+      }
+
+      .options {
+        padding-top: 20px;
+      }
+
+      .options a {
+        color: #222;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+      }
+
+      .options a:hover {
+        color: #4e4e4e;
+        text-decoration: underline;
+      }
+    </style>
+    <title>Pinterest | Sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="./img/pinterest-logo.png" alt="logo" />
+      </div>
+      <div class="title">
+        <h1>Login Form</h1>
+      </div>
+      <form action="">
+        <div class="input-field">
+          <i class="fa fa-envelope"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+          />
+        </div>
+
+        <div class="input-field">
+          <i class="fa fa-lock"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <button type="submit">Login</button>
+
+        <div class="options">
+          <p>
+            <a href="#">Forgot Password?</a> or
+            <a href="#">Sign Up</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
