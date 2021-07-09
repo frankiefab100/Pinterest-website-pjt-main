@@ -20,7 +20,7 @@
           <li><a href="signup.php" id="sign-up">Sign up</a></li>
         <?php else : ?>
           <li><a href="index.php" class="signin_user">Welcome <?php echo $_SESSION['username']; ?></a></li>
-          <li><a href="Logout.php" id="log-in">Log Out</a></li>
+          <li><a href="logout.php" id="log-in">Log Out</a></li>
         <?php endif; ?>
       </ul>
     </nav>
