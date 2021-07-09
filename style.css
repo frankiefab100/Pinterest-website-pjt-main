@@ -28,6 +28,13 @@ ul li a {
   text-decoration: none;
 }
 
+Ul li a.signin_user {
+  display: block;
+  padding: 0.5rem !important;
+  border-radius: 2rem !important;
+  background-color: gainsboro !important;
+}
+
 /* --Header Section-- */
 .top-nav {
   position: relative;
@@ -69,7 +76,7 @@ ul li a {
   cursor: pointer;
   font-weight: bold;
   outline: none;
-  margin-right: 10px;
+  margin-right: 5px;
   padding: 6px 10px;
 }
 
@@ -107,7 +114,7 @@ main span {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .bg-images > img {
@@ -165,7 +172,6 @@ main span {
   font-weight: bold;
   outline: none;
   padding: 20px;
-  /* margin-bottom: -400px; */
 }
 
 /* --Footer Section-- */
