@@ -1,8 +1,5 @@
 <?php
 
-//database connection
-include('server/Database/connect.php');
-
 //Start session
 session_start();
 
