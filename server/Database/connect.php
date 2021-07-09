@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "pinterest_clone";
+$servername = "sql4.freemysqlhosting.net";
+$username = "sql4423962";
+$password = "cPB46wETsj";
+$dbname = "sql4423962";
 
 try {
     $dsn = "mysql:host=" . $servername . ";" . "dbname=" . $dbname;
